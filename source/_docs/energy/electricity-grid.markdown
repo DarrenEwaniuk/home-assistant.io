@@ -33,9 +33,9 @@ We have worked with creator [Marcel Zuidwijk](https://www.zuidwijk.com) to devel
 
 #### Connect via Zigbee Energy Profile
 
-The Zigbee Energy Profile is a wireless energy standard to provide real-time information about electricity usage. This standard is available in some meters in the US, UK and Australia. This is not "normal" Zigbee as implemented by Home Assistant but requires special certified hardware.
+The Zigbee Energy Profile is a wireless energy standard to provide real-time information about electricity usage. This standard is available in some meters in the US, Canada, UK and Australia. This is not "normal" Zigbee as implemented by Home Assistant but requires special certified hardware.
 
-We are not currently aware of a device that implements this which supports a local API and is compatible with Home Assistant.
+[Rainforest Automation](https://www.rainforestautomation.com/) has the Legacy Eagle, Eagle-200, and Eagle-3 energy gateways that can connect to [supported utilities](https://www.rainforestautomation.com/utilities/), using the [Rainforest Eagle](https://www.home-assistant.io/integrations/rainforest_eagle/) Home Assistant local polling integration.
 
 #### Reading the meter via a pulse counter
 
